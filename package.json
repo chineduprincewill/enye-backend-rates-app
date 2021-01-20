@@ -1,0 +1,27 @@
+{
+  "name": "rates-app",
+  "version": "1.0.0",
+  "description": "enye challenge backend app for rates conversion",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chineduprincewill/enye-backend-rates-app.git"
+  },
+  "author": "Chinedu Princewill Ijeomah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chineduprincewill/enye-backend-rates-app/issues"
+  },
+  "homepage": "https://github.com/chineduprincewill/enye-backend-rates-app#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
