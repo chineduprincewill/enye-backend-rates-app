@@ -10,7 +10,9 @@ const app =  express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-app.get('/', (req, res) => res.send('Hello World!'));
+const welcome = '<h3>Welcome to Enye 2021 Backend Task 1</h3><p>Click <a href="https://enye-rates-app.herokuapp.com/api/rates/base=USD/currency=EUR,CZK,GBP">here</a> to check your rates</p><p>You can modify the <b>base</b> and <b>currency</b> parameters in the url to check your rates</p><p>Thanks!</p>';
+
+app.get('/', (req, res) => res.send(welcome));
 
 app.use('/api/rates', rates);
 
